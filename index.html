@@ -23,7 +23,42 @@
             <label for="address">Your address:</label>
             <input id="address" class="form-control" type="text">
           </div>
-          
+          <div class="form-group">
+            <label for="wandLength">Wand length:</label>
+            <input id="wandLength" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="wandWood">Select a wand wood:</label>
+            <select class="form-control" id="wandWood">
+              <option>Holly</option>
+              <option>Ash</option>
+              <option>Willow</option>
+              <option>Walnut</option>
+              <option>Hawthorn</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="wandCore">Select a wand core:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="wandCore" value="Dragon Heartstring">
+                Dragon Heartstring
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="wandCore" value="Phoenix Feather">
+                Phoenix Feather
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="wandCore" value="Unicorn Hair">
+                unicorn Hair
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn">Submit</button>
 
         </form>
 
