@@ -1,0 +1,20 @@
+body {
+  background-image: url(../img/parchment.jpg);
+}
+
+
+.text {
+  background-color: rgba(124, 124, 124, 0.1);
+  font-family: cursive;
+  border-radius: 8px;
+  color: white;
+  padding: 5px;
+}
+
+.btn {
+  background-color: #7C7C7C
+}
+
+#confirmPurchase {
+  display: none;
+}
