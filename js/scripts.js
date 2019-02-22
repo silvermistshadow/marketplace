@@ -7,7 +7,13 @@ $(document).ready(function(){
     var wandWood = $("#wandWood").val();
     var wandCore = $("input:radio[name=wandCore]:checked").val();
 
-    
+    $("#yourNameOut").text(yourName);
+    $("#addressOut").text(address);
+    $("#wandLengthOut").text(wandLength);
+    $("#wandWoodOut").text(wandWood);
+    $("#wandCoreOut").text(wandCore);
+
+    $("#confirmPurchase").show();
 
   });
 
